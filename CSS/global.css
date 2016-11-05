@@ -1,0 +1,169 @@
+.headerPart{
+	min-height: 70px;
+	background: #330033;
+}
+ul.login-link 
+{
+	margin-top: 20px;
+	color: #737373;
+}
+.login-link li a 
+{    padding-right: 16px;
+	color: #fff;
+}
+.login-link li
+{
+	display: inline;
+	padding: 5px;
+	margin-top: 5px;
+	color: 	#737373;
+}
+.login-link li:first-child a
+{
+	border-right: 1px solid #ccc;
+}
+.heading
+{
+	color: 	#fff;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: "french script";
+}
+.form-control
+{
+   border-radius: 0;
+}
+.footerPart{
+	background: #001a33;
+	min-height: 50px;
+}
+
+
+
+/*LOGIN PAGE CSS*/
+.mid-container
+{
+	width: 100%;
+	min-height: 400px;
+	box-shadow: 2px 2px 1px #8c8c8c;
+    background: linear-gradient(#330033, #fff);
+}
+.banner img
+{	margin-left: 40px;
+	margin-bottom: 60px;
+    height: 371px;
+    width: 495px;
+}
+.login-label
+{
+color: #fff;
+font-size: 20px;
+margin-bottom: 30px;
+margin-top: 15px;	
+margin-left: 15px;
+}
+.forget-link
+{
+	color: white;
+	font-size: 15px;
+	color: #fff;
+}
+.login-page a:hover
+{	color: #fff;
+	text-decoration: underline;
+}
+.btn-info
+{	background: #001a33;
+	border-radius: 0;
+}
+.taglin{
+
+	font-size: 45px;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.taglin1{
+	margin-left: 80px;
+   font-size: 65px;
+	color: #fff;
+	
+}
+
+
+
+.mid-part{
+	width: 100%;
+	min-height: 475px;
+	background: #fff;
+}
+.ItemsDisplayPart{
+	min-height: 475px;
+	background: linear-gradient(#1a8cff, #fff);
+}
+.dataList{
+
+	margin-left: 40px;
+	font-size: 20px;
+	color: #001a33;
+}
+.dataList p{
+	margin-top: 10px;
+}
+.SelectedItemPart{
+	margin-top: 30px;
+	margin-left: 150px;
+	min-height: 100px;
+	background: linear-gradient(#1a8cff, #fff);
+	border: solid 1px #1a8cff ;
+}
+.myCart{
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	min-height: 150px;
+	background: linear-gradient(#1a8cff, #fff);
+	border: solid 1px #1a8cff ;
+}
+.cartName{
+	margin-left: 15px;
+	color: #001a33;
+	font-size: 30px;
+}
+.selectedItem{
+	font-size: 20px;
+	margin: 30px 40px 20px 90px;;
+}
+.cartButton{
+	margin: 0px 40px 20px 290px;
+}
+.buyButton{
+    margin: 22px 40px 20px 190px;
+}
+
+
+/*Registration Page*/
+
+.middle-container{
+	min-height: 475px;
+	background: linear-gradient(#1a8cff, #fff);
+}
+.myRegFormHeading{
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+.myRegForm{
+	margin-left: 200px;
+}
+.bannerImg img{
+	vertical-align: middle;
+	height: 426px;
+	width: 600px;
+	margin-top: 25px;
+	margin-left: 80px;
+}
+.submitButton{
+
+    padding-left: 80px;
+    padding-right: 81px;
+}

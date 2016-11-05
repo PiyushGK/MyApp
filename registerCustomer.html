@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>RegistrationForm</title>
+
+<link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+<link href="CSS/global.css" rel="stylesheet">
+
+</head>
+
+<body onload="DataDisplay()">
+  <div class="headerPart">
+    <header class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="heading">DEMO SHOPPING SITE</h2>
+      </div>
+    </div>
+    </header>
+  </div>
+
+
+  <div class="middle-container">
+    <div class="row">
+      <h1 class="myRegFormHeading">Customer Registration Form</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 myRegForm">
+        <form>
+          <label>Customer Name :</label> <input type="text"
+            class="form-control" name="name" placeholder="Customer Name"
+            id="cName" onblur="validate()"
+            title="Name should be within alphabets only." required>
+          <p id="name_msg" style="color: red;"></p>
+          <br> <label>Mobile Number :</label> <input type="number"
+            class="form-control" name="MobileNumber"
+            placeholder="Mobile Number" id="mobNo" onblur="validate()"
+            required>
+          <p id="Mob_msg" style="color: red;"></p>
+          <br> <label>Email Id :</label> <input type="text"
+            class="form-control" name="EmailId" placeholder="Email Id"
+            onblur="validate()" id="email"
+            title="Email Id should be in 'xyz@abc.com' " required>
+          <p id="email_msg" style="color: red;"></p>
+          <br> <label>Address :</label>
+          <textarea class="form-control" name="Address" placeholder="Address"
+            id="addr" onblur="validate()" required></textarea>
+          <p id="addr_msg" style="color: red;"></p>
+          <br> <label>Pin Code :</label> <input type="text"
+            class="form-control" name="PinCode " placeholder="Pin code"
+            id="pinCode" onblur="validate()"
+            title="Enter 6 digits Pin Code, it should not start with 0 or 9 "
+            required>
+          <p id="pin_msg" style="color: red;"></p>
+          <br> <input type="submit" class="btn btn-info submitButton"
+            value="SUBMIT"> <input type="reset"
+            class="btn btn-info submitButton"><br>
+          <br>
+        </form>
+      </div>
+   
+    <div class="col-lg-4">
+        <div class="bannerImg">
+          <img src="images/banner.jpg">
+        </div>
+      </div>
+  </div>
+ </div>
+
+
+  <footer class="footer footerPart">
+  <div class="container">
+    <span class="text-muted tagline">Powered By demo providers.</span> <span
+      class="logo pull-right"> </span>
+  </div>
+  </footer>
+
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/global.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HomePage</title>
+
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="CSS/global.css" rel="stylesheet">
+	
+  </head>
+
+  <body>
+  <div class="headerPart">
+    <header class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="heading">DEMO SHOPPING SITE</h2>
+      </div>
+    </div>
+  </header>
+</div>
+
+
+    <div class="mid-part">
+        <div class="row">
+            <div class="col-lg-3 pull-right">
+              <div class="ItemsDisplayPart">
+                  <p id="item" class="dataList"></p>
+              </div>
+            </div>
+			<div class="col-lg-8">            
+			   <div class="myCart">
+				  <p class="cartName">MyCart :</p>
+				  <p class="selectedItem" id="itemsInCart"></p>
+					<button type="button" class="btn btn-info buyButton"> Checkout</button>
+					<button type="button" class="btn btn-info" onclick="emptyCart()"> Empty Cart</button>
+				</div>
+			</div>
+      
+        </div>
+    </div>
+
+
+
+  <footer class="footer footerPart">
+      <div class="container">
+        <span class="text-muted tagline">Powered By demo providers.</span>
+         <span class="logo pull-right">
+      </span>
+      </div>
+    </footer>
+
+
+   <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+  <script src="js/i18n/grid.locale-en.js"></script>
+  <script src="js/jquery.jqGrid.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/bootstrap3-typeahead.js"></script>
+  <script src="js/jquery.multiselect.min.js"></script>
+  <script src="js/global.js"></script>
+  <script>
+	 DataDisplay();
+   </script>
+  </body>
+</html>
